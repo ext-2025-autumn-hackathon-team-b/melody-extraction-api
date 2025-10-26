@@ -1,0 +1,15 @@
+[project]
+name = "melody-extraction-web"
+version = "0.1.0"
+requires-python = ">=3.10, <3.14"
+dependencies = [
+    "librosa>=0.11.0",
+    "mido>=1.3.3",
+    "numpy>=2.2.6",
+    "scipy>=1.15.3",
+    "pretty-midi>=0.2.10",
+    "pyfluidsynth>=1.3.4",
+    "fastapi>=0.120.0",
+    "uvicorn>=0.38.0",
+    "pydantic>=2.12.3",
+]
