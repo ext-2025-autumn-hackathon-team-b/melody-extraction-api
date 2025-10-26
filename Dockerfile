@@ -1,7 +1,7 @@
 FROM ghcr.io/astral-sh/uv:debian-slim
 WORKDIR /app
 
-RUN apt update && apt install -y ca-certificates build-essential
+RUN apt update && apt install -y ca-certificates build-essential fluidsynth
 
 COPY pyproject.toml uv.lock /app/
 RUN uv sync --locked
